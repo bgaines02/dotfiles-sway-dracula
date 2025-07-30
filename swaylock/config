@@ -9,7 +9,7 @@ image=/home/bg/etc/backgrounds/sway1.png
 scaling=fill
 #effect-scale=0.4
 #effect-vignette=0.2:0.5
-#effect-blur=4x2
+effect-blur=3x5
 font=FiraCode
 
 # Ring
