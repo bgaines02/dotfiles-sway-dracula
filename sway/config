@@ -21,7 +21,7 @@ set $menu fuzzel
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/bg/etc/backgrounds/sway1.png fill
+output * bg /home/bg/.config/backgrounds/sway1.png fill
 #
 # Example configuration:
 #
