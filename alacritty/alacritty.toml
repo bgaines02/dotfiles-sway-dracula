@@ -1,0 +1,29 @@
+[font]
+normal = { family = "JetBrainsMonoNLNerdFont", style = "Regular" }
+size = 12
+
+[colors]
+primary.foreground = "#ffffff"
+primary.background = "#282a36"
+
+normal.black = "#b0b0b0"
+normal.red = "#ff7f7f"
+normal.green = "#7bfb9c"
+normal.yellow = "#cdaefa"
+normal.blue = "#8995bb"
+normal.magenta = "#ff9ad4"
+normal.cyan = "#8be9fd"
+normal.white = "#ffffff"
+
+bright.black = "#404040"
+bright.red = "#ff5555"
+bright.green = "#50fa7b"
+bright.yellow = "#bd93f9"
+bright.blue = "#6272a4"
+bright.magenta = "#ff79c6"
+bright.cyan = "#8be9fd"
+bright.white = "#ffffff"
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+
