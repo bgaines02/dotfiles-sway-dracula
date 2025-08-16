@@ -14,7 +14,7 @@ set $down j
 set $up k
 set $right l
 # Your preferred terminal emulator
-set $term foot
+set $term alacritty
 # Your preferred application launcher
 set $menu fuzzel
 
@@ -59,7 +59,10 @@ output * bg /home/bg/.config/backgrounds/sway1.png fill
 ### Key bindings
 #
 # Basics:
-#
+    
+    # Activate swaylock
+    #bindsym $mod+Alt+p exec swaylock
+
     # Start a terminal
     bindsym $mod+Return exec $term
 
