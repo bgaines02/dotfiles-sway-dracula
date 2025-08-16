@@ -15,6 +15,10 @@ style = "bold green"
 
 [git_branch]
 style = "bold pink"
+always_show_remote = true
+
+[git_metrics]
+disabled = false
 
 [git_status]
 style = "bold red"
