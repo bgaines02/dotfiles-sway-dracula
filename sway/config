@@ -61,7 +61,7 @@ output * bg /home/bg/.config/backgrounds/sway1.png fill
 # Basics:
     
     # Activate swaylock
-    #bindsym $mod+Alt+p exec swaylock
+    bindsym $mod+Alt+p exec swaylock
 
     # Start a terminal
     bindsym $mod+Return exec $term
@@ -84,7 +84,9 @@ output * bg /home/bg/.config/backgrounds/sway1.png fill
 
     # Exit sway (logs you out of your Wayland session)
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
-#
+
+    # Exec flameshot
+    bindsym $mod+shift+s exec flameshot gui
 # Moving around:
 #
     # Move your focus around
