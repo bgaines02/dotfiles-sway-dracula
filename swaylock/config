@@ -1,6 +1,6 @@
 clock
 indicator
-# no-unlock-indicator
+no-unlock-indicator
 daemonize
 indicator-caps-lock
 timestr=%k:%M
