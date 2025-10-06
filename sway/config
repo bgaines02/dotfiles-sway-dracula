@@ -244,6 +244,7 @@ output DP-2 mode 1920x1080@144Hz
 # Primary monitor
 workspace 1 output DP-1
 workspace 2 output DP-2
+workspace 2 output HDMI-A-1
 
 # Font stuff
 #font pango:JetBrainsMono Nerd 12
