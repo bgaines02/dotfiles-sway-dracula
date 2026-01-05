@@ -114,7 +114,7 @@
                     off_style: (fg: "#6272a4", modifiers: "Dim"),
                     oneshot_style: (fg: "#ff5555", modifiers: "Dim"),
                 )))),
-                (kind: Text(" ")),
+                (kind: Text("  ")),
 
                 (kind: Text(" / "), style: (fg: "#6272a4")),
                 (kind: Property(Status(QueueTimeRemaining(separator: " "))), style: (fg: "#bd93f9", modifiers: "Bold")),
@@ -246,13 +246,6 @@
                 default: (kind: Property(Filename))
             ),
         ),
-        (
-            kind: Text(" Rating: "),
-        ),
-        (
-            kind: Sticker("rating"),
-            default: (kind: Text("-"))
-        ),
     ],
     tab_bar: (
         active_style: (fg: "#282a36", bg: "#bd93f9", modifiers: "Bold"),
@@ -266,9 +259,9 @@
     song_table_format: [
         (
             prop: (kind: Property(Position)),
-            width: "2",
-            alignment: Right,
-            label: ""
+            width: "4",
+            alignment: Left,
+            label: "#"
         ),
         (
             prop: (kind: Property(Other("albumartist")), default: (kind: Property(Artist), default: (kind: Text("Unknown")))),
@@ -285,9 +278,9 @@
         ),
         (
             prop: (kind: Property(Duration),default: (kind: Text("-"))),
-            width: "5",
+            width: "6%",
             alignment: Right,
-            label: "Len"
+            label: "Length"
         ),
     ],
     header: (rows: []),
