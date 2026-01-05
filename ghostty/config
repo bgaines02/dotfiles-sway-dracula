@@ -1,0 +1,9 @@
+# ==========================
+# # The config file consists of simple key-value pairs,
+# # separated by equals signs.
+font-family = JetBrainsMonoNLNerdFont
+
+foreground = ffffff
+background = 282a36
+
+cursor-style = bar
