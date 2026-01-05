@@ -1,0 +1,20 @@
+(
+    address: "127.0.0.1:6900",
+    password: None,
+    theme: Some("dracula"),
+    enable_mouse: true,
+
+    artists: (
+        album_display_mode: SplitByDate,
+        album_sort_by: Date,
+        album_date_tags: [Date],
+    ),
+
+    album_art: (
+        method: Auto,
+        max_size_px: (width: 1500, height: 1500),
+        disabled_protocols: ["http://", "https://"],
+        vertical_align: Top,
+        horizontal_align: Center,
+    ),
+)
