@@ -25,5 +25,5 @@ bright.cyan = "#8be9fd"
 bright.white = "#ffffff"
 
 [cursor]
-style = { shape = "Block", blinking = "On" }
+style = { shape = "Beam", blinking = "On" }
 
