@@ -96,20 +96,20 @@
                 )))),
                 (kind: Text(" ")),
 
-                (kind: Property(Status(SingleV2(
-                    on_label: "󰑘",
-                    off_label: "󰑘",
-                    oneshot_label: "󰑘",
+                (kind: Property(Status(ConsumeV2(
+                    on_label: "󰮄",
+                    off_label: "󰮄",
+                    oneshot_label: "󰮄",
                     on_style: (fg: "#50fa7b", modifiers: "Bold"),
                     off_style: (fg: "#6272a4", modifiers: "Dim"),
                     oneshot_style: (fg: "#ff5555", modifiers: "Bold"),
                 )))),
                 (kind: Text(" ")),
 
-                (kind: Property(Status(ConsumeV2(
-                    on_label: "󰮄",
-                    off_label: "󰮄",
-                    oneshot_label: "󰮄",
+                (kind: Property(Status(SingleV2(
+                    on_label: "󰑘",
+                    off_label: "󰑘",
+                    oneshot_label: "󰑘",
                     on_style: (fg: "#50fa7b", modifiers: "Bold"),
                     off_style: (fg: "#6272a4", modifiers: "Dim"),
                     oneshot_style: (fg: "#ff5555", modifiers: "Dim"),
