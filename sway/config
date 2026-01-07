@@ -250,6 +250,11 @@ workspace 2 output HDMI-A-1
 #font pango:JetBrainsMono Nerd 12
 font pango:JetBrainsMono Nerd 12
 
+# Middle-click scroll
+input type:pointer {
+    scroll_method on_button_down
+    scroll_button button2
+  }
 
 # Extra
 gaps inner 0
